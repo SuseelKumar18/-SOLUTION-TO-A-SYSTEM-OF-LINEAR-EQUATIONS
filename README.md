@@ -22,6 +22,12 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
+Import the NumPy library.
+Define the coefficient matrix A.
+Define the constant matrix B.
+Use np.linalg.solve() function to solve the equations.
+Display the values of x, y, and z.
+
 # Program to solve a system of linear equations
 # Using NumPy library
 
@@ -45,7 +51,6 @@ print("y =", solution[1])
 print("z =", solution[2])
 
 ## Output:
-
 Solution of the system of equations:
 x = 2.52
 y = 0.65
