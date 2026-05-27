@@ -45,6 +45,12 @@ print("y =", solution[1])
 print("z =", solution[2])
 
 ## Output:
+
+Solution of the system of equations:
+x = 2.52
+y = 0.65
+z = 1.95
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
