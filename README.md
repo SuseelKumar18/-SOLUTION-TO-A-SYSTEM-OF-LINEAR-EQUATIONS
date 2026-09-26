@@ -32,28 +32,6 @@ C=np.linalg.solve(A,B)
 print(C)
 ```
 
-# Program to solve a system of linear equations
-# Using NumPy library
-
-import numpy as np
-
-# Coefficient matrix
-A = np.array([[2, 3, -1],
-              [1, -2, 4],
-              [3, 1, 2]])
-
-# Constant matrix
-B = np.array([5, 8, 7])
-
-# Finding solution
-solution = np.linalg.solve(A, B)
-
-# Display result
-print("Solution of the system of equations:")
-print("x =", solution[0])
-print("y =", solution[1])
-print("z =", solution[2])
-
 ## Output:
 Solution of the system of equations:
 x = 2.52
